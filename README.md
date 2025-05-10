@@ -30,8 +30,8 @@ The methodology employed in this project consists of the following key steps:
 
 The comparative performance of the models is summarized below:
 
-* **CNN**: Achieved an average accuracy and recall of 98.75%. However, the AUC-ROC score and Average Precision were both 0.50, indicating poor discriminatory power between the two classes.
-* **ResNet50**: Demonstrated an average accuracy and recall of 87.50%, with strong performance in distinguishing between sexes, as shown by an AUC-ROC score of 0.96 and an Average Precision of 0.96.
+* **CNN**: Achieved an average accuracy and recall of 62.5%. However, the AUC-ROC score is 0.71 and Average Precision were both 0.76, indicating poor discriminatory power between the two classes.
+* **ResNet50**: Demonstrated an average accuracy and recall of 87.5%, with strong performance in distinguishing between sexes, as shown by an AUC-ROC score of 0.95 and an Average Precision of 0.96.
 * **YOLO11n-cls**:  Reached 100% accuracy, recall, AUC-ROC score, and Average Precision, suggesting a super fit model.
 
 Eigen-CAM visualizations revealed that the models focus on different wing regions to make predictions. For example, the models often highlighted dark spots on female wings and the wing margin characteristics on male wings.
