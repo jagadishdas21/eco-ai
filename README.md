@@ -38,6 +38,6 @@ Eigen-CAM visualizations revealed that the models focus on different wing region
 
 ## Conclusion
 
-While the CNN showed high accuracy and recall, its low AUC-ROC and AP scores suggest it may not be reliably distinguishing between male and female butterflies. ResNet50 provides a good balance of accuracy and recall and its AUC_ROC and AP scores shows a genralized relations between training and validation after hyper parametric tunning. YOLO11n-cls perfect scores indicate overlearning, suggesting a need for a larger and more diverse dataset to improve generalization.
+The CNN showed low accuracy and recall, its low AUC-ROC and AP scores suggest it may not be reliably distinguishing between male and female butterflies. ResNet50 provides a good balance of accuracy and recall and its AUC_ROC and AP scores shows a genralized relation after hyper parametric tunning. YOLO11n-cls perfect scores indicate overlearning, suggesting a need for a larger and more diverse dataset to improve generalization.
 
 Further research could involve expanding the dataset, including more butterfly species, and developing real-time monitoring tools for ecological studies.
