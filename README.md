@@ -30,11 +30,11 @@ The methodology employed in this project consists of the following key steps:
 
 1. The models were evaluated based on accuracy, recall, AUC-ROC, and Average Precision.
 
-| Model        | Performance Summary                                                                                                                                                        | Visualization |
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| 🧱 **Accuracy/Loss Curve**      | • CNN - Accuracy: 62.5%<br>• ResNet50 - Accuracy: 87.5%<br>• YoloV11 - Accuracy: 100%<br> | ![acc/loss](images/image-3.png) |
-| 🛰️ **Precision-Recall Curve** | • CNN - Avg. Precision: 0.76<br>• ResNet50 - Avg. Precision: 0.96<br> • YoloV11 - Avg. Precision: 1.00<br> | ![pr-curve](images/image-4.png) |
-| 🚀 **Confusion Matrix** | • CNN - Avg. Precision: 0.76<br>• ResNet50 - Avg. Precision: 0.96<br> • YoloV11 - Avg. Precision: 1.00<br> | ![conf-matrix](images/image-5.png) |
+| Model | Visualization |
+|----------------|------------------------------------------------|
+| 🧱 **Accuracy/Loss Curve**   | ![acc/loss](images/image-3.png) |
+| 🛰️ **Precision-Recall Curve** | ![pr-curve](images/image-4.png) |
+| 🚀 **Confusion Matrix** |  ![conf-matrix](images/image-5.png) |
 
 ---
 
