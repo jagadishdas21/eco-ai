@@ -2,8 +2,6 @@
 
 This project explores the use of image classification techniques to analyze sexual dimorphism in the *Catopsilia pomona*, focusing on distinguishing between male and female individuals using wing images.
 
-![Header](eigen-cam/results/output-1.png)
-
 ## Introduction
 
 The study of sexual dimorphism, the distinct differences between males and females of the same species, is crucial in entomology. This project applies computational methods, specifically Convolutional Neural Networks (CNN), ResNet50, and YOLO11n-cls, to automate and enhance the analysis of these differences in *Catopsilia pomona*. By analyzing wing morphology, we aim to accurately classify the sex of individual butterflies, contributing to ecological studies and conservation efforts.
@@ -16,7 +14,7 @@ The primary objectives of this project are:
 * To evaluate the models using key performance metrics, including accuracy, recall, AUC-ROC score, and Average Precision (AP).
 * To visualize and interpret the decision-making process of the models using Eigen-CAM visualization, highlighting the specific wing features that influence sexual dimorphism.
 
-## Methods
+## Methodology
 
 The methodology employed in this project consists of the following key steps:
 
@@ -28,6 +26,12 @@ The methodology employed in this project consists of the following key steps:
     * A YOLO11n-cls model
 4.  **Evaluation and Results**: The performance of each model was evaluated using accuracy, recall, AUC-ROC score, Average Precision, and confusion matrices. Eigen-CAM visualization was used to provide interpretability.
 
+![Methodology](images/image-0.png)
+
+![Methodology](images/image-1.png)
+
+![Methodology](images/image-2.png)
+
 ## Results
 
 The comparative performance of the models is summarized below:
@@ -36,7 +40,15 @@ The comparative performance of the models is summarized below:
 * **ResNet50**: Demonstrated an average accuracy and recall of 87.5%, with strong performance in distinguishing between sexes, as shown by an AUC-ROC score of 0.95 and an Average Precision of 0.96.
 * **YOLO11n-cls**:  Reached 100% accuracy, recall, AUC-ROC score, and Average Precision, suggesting a super fit model.
 
+![Results](images/image-3.png)
+
+![Results](images/image-4.png)
+
+![Results](images/image-5.png)
+
 Eigen-CAM visualizations revealed that the models focus on different wing regions to make predictions. For example, the models often highlighted dark spots on female wings and the wing margin characteristics on male wings.
+
+![Results](images/image-6.png)
 
 ## Conclusion
 
