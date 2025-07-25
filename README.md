@@ -30,11 +30,11 @@ The methodology employed in this project consists of the following key steps:
 
 1. The models were evaluated based on accuracy, recall, AUC-ROC, and Average Precision.
 
-| Model | Visualization |
-|----------------|------------------------------------------------|
-| 🧱 **Accuracy/Loss Curve**   | ![acc/loss](images/image-3.png) |
-| 🛰️ **Precision-Recall Curve** | ![pr-curve](images/image-4.png) |
-| 🚀 **Confusion Matrix** |  ![conf-matrix](images/image-5.png) |
+| Model          | Visualization |
+|----------------|--------------------------------------------|
+| **Accuracy/Loss Curve**   | ![acc/loss](images/image-3.png) |
+| **Precision-Recall Curve** | ![pr-curve](images/image-4.png) |
+| **Confusion Matrix** |  ![conf-matrix](images/image-5.png) |
 
 ---
 
