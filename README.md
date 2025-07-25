@@ -2,6 +2,8 @@
 
 This project explores the use of image classification techniques to analyze sexual dimorphism in the *Catopsilia pomona*, focusing on distinguishing between male and female individuals using wing images.
 
+![Header](eigen-cam/results/output-1.png)
+
 ## Introduction
 
 The study of sexual dimorphism, the distinct differences between males and females of the same species, is crucial in entomology. This project applies computational methods, specifically Convolutional Neural Networks (CNN), ResNet50, and YOLO11n-cls, to automate and enhance the analysis of these differences in *Catopsilia pomona*. By analyzing wing morphology, we aim to accurately classify the sex of individual butterflies, contributing to ecological studies and conservation efforts.
