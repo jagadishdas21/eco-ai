@@ -18,37 +18,29 @@ The primary objectives of this project are:
 
 The methodology employed in this project consists of the following key steps:
 
-1.  **Image Acquisition**:  Images of *Catopsilia pomona* wings were collected from NIT Rourkela campus and prepared for analysis.
-2.  **Data Preparation**: The collected images were processed and organized into training and validation datasets.
-3.  **Model Training**: Three different models were trained:
-    * A custom Convolutional Neural Network (CNN)
-    * A fine-tuned ResNet50 model
-    * A YOLO11n-cls model
-4.  **Evaluation and Results**: The performance of each model was evaluated using accuracy, recall, AUC-ROC score, Average Precision, and confusion matrices. Eigen-CAM visualization was used to provide interpretability.
+|  Steps                 | Description                                                                                   | Visual |
+|--------------------------|--------------------------------------------------------------------------------------------------|-----------|
+| **Image Acquisition** | Images of *Catopsilia pomona* wings were collected from NIT Rourkela campus and prepared for analysis. | ![Step 1](images/image-0.png) |
+| **Data Preparation** | The collected images were processed and organized into training and validation datasets.         | ![Step 2](images/image-1.png) |
+| **Model Training**    | Three different models were trained:<br>• Custom CNN<br>• Fine-tuned ResNet50<br>• YOLOv11n-cls | ![Step 3](images/image-2.png) |
 
-![Methodology](images/image-0.png)
-
-![Methodology](images/image-1.png)
-
-![Methodology](images/image-2.png)
+---
 
 ## Results
 
-The comparative performance of the models is summarized below:
+1. The models were evaluated based on accuracy, recall, AUC-ROC, and Average Precision.
 
-* **CNN**: Achieved an average accuracy and recall of 62.5%. However, the AUC-ROC score is 0.71 and Average Precision were both 0.76, indicating poor discriminatory power between the two classes.
-* **ResNet50**: Demonstrated an average accuracy and recall of 87.5%, with strong performance in distinguishing between sexes, as shown by an AUC-ROC score of 0.95 and an Average Precision of 0.96.
-* **YOLO11n-cls**:  Reached 100% accuracy, recall, AUC-ROC score, and Average Precision, suggesting a super fit model.
+| 📌 Model        | 🧠 Performance Summary                                                                                                                                                        | 🖼️ Visualization |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 🧱 **CNN**      | • Accuracy: 62.5%<br>• Recall: 62.5%<br>• AUC-ROC: 0.71<br>• Avg. Precision: 0.76<br>🔎 Indicates weak class separation                  | ![CNN](images/image-3.png) |
+| 🛰️ **ResNet50** | • Accuracy: 87.5%<br>• Recall: 87.5%<br>• AUC-ROC: 0.95<br>• Avg. Precision: 0.96<br>✅ Strong at distinguishing sexes                  | ![ResNet50](images/image-4.png) |
+| 🚀 **YOLO11n-cls** | • Accuracy: 100%<br>• Recall: 100%<br>• AUC-ROC: 1.00<br>• Avg. Precision: 1.00<br>🎯 Perfect performance, indicating possible overfitting | ![YOLO](images/image-5.png) |
 
-![Results](images/image-3.png)
+---
 
-![Results](images/image-4.png)
+2. Eigen-CAM visualizations revealed that the models focus on different wing regions to make predictions. For example, the models often highlighted dark spots on female wings and the wing margin characteristics on male wings.
 
-![Results](images/image-5.png)
-
-Eigen-CAM visualizations revealed that the models focus on different wing regions to make predictions. For example, the models often highlighted dark spots on female wings and the wing margin characteristics on male wings.
-
-![Results](images/image-6.png)
+![EigenCAM](images/image-6.png)
 
 ## Conclusion
 
