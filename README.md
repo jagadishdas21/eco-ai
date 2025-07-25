@@ -33,7 +33,7 @@ The methodology employed in this project consists of the following key steps:
 | Model          | Visualization |
 |----------------|--------------------------------------------|
 | **Accuracy/Loss Curve**   | ![acc/loss](images/image-3.png) |
-| **Precision-Recall Curve** | ![pr-curve](images/image-4.png) |
+| **AUC-ROC and Precision-Recall Curve** | ![pr-curve](images/image-4.png) |
 | **Confusion Matrix** |  ![conf-matrix](images/image-5.png) |
 
 ---
