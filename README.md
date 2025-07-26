@@ -34,7 +34,7 @@ The methodology employed in this project consists of the following key steps:
 
 1. The models were evaluated based on accuracy, recall, AUC-ROC, and Average Precision.
 
-| Model          | Visualization |
+| Metrices         | Visualization |
 |----------------|--------------------------------------------|
 | **Accuracy/Loss Curve**   | ![acc/loss](images/image-3.png) |
 | **AUC-ROC and Precision-Recall Curve** | ![pr-curve](images/image-4.png) |
